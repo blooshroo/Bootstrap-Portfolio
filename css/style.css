@@ -1,0 +1,94 @@
+/* Universal */
+
+:root {
+    --bright: turquoise;
+    --navy: navy;
+    --purple: blueviolet;
+    --transparent: rgba(64, 224, 208, 0.737);
+  }
+
+
+/* <!-- Navigation --> */
+
+.navbar {
+    background-color: var(--purple) !important;
+}
+
+.nav-link {
+    color: var(--bright) !important;
+}
+
+
+/* <!-- Hero/Jumbotron Section --> */
+
+.hero-banner {
+    background-image: url(../images/02-hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    display: inline-block;
+    background-color: var(--transparent);
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    background-color: var(--transparent);
+    margin-left: 3rem;
+    padding-left: 3rem;
+}
+
+
+/* <!-- Work Section -->*/
+
+.workGrid {
+    justify-content: center;
+}
+
+
+
+/* <!-- Skills  --> */
+
+.skillsSection {
+    margin: 3rem 1rem;
+}
+
+.napoleon {
+    display: block;
+    margin: 0 auto;
+}
+
+.skill-card {
+    align-items: center;
+}
+
+.skill-img {
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+
+h2 {
+    margin: 3rem 1rem;
+}
+
+/* <!-- About/Contact --> */
+
+.aboutSection {
+    margin: 3rem 1rem;
+}
+
+.about-row {
+    align-items: center;
+    justify-content: center;
+}
+
+/* <!-- Footer --> */
+
+
+
+
+
