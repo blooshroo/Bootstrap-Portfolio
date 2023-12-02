@@ -1,5 +1,7 @@
 /* Universal */
 
+* {   padding: 0;   margin: 0;}
+
 :root {
     --bright: turquoise;
     --navy: navy;
@@ -57,8 +59,21 @@ h1 {
 }
 
 .napoleon {
-    display: block;
+    display: flex;
     margin: 0 auto;
+    width: 60%;
+    border-radius: 2%;
+}
+
+.skills-header {
+    margin: 1rem 0 0;
+    font-size: xxx-large;
+    background-color: white;
+}
+
+.skillsQuote {
+    align-items: center;
+    margin: 1.5rem 0 0;
 }
 
 .skill-card {
@@ -71,6 +86,10 @@ h1 {
     width: 5rem;
 }
 
+.quill {
+    border-radius: 10%;
+}
+
 h2 {
     margin: 3rem 1rem;
 }
@@ -79,12 +98,16 @@ h2 {
 
 .aboutSection {
     margin: 3rem 1rem;
+    border: 0.001rem #D3D3D3 solid;
 }
 
 .about-row {
     align-items: center;
     justify-content: center;
+
 }
+
+
 
 /* <!-- Footer --> */
 
