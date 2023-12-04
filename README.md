@@ -18,4 +18,4 @@ https://blooshroo.github.io/Bootstrap-Portfolio/
 
 ## Screenshot:
 
-![screenshot of website](./images/bootstrap-portfolio-screenshot.png)
+![screenshot of website](./images/bootstrapPortfolio-screenshot.png)
