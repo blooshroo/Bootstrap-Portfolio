@@ -25,6 +25,10 @@
     background-color: var(--purple) !important;
 }
 
+.nav-link:hover {
+    background-color: var(--transparent);
+}
+
 /* <!-- Hero/Jumbotron Section --> */
 
 .hero-banner {
@@ -146,6 +150,15 @@ h2 {
     color: navy;
 }
 
+.contact a:hover {
+    color: blueviolet;
+}
+
+/* Footer */
+
+.fa-brands:hover {
+    transform: scale(1.1);
+}
 
 /* Media Queries */ 
 
