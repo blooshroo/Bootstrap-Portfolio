@@ -14,32 +14,24 @@
 
 <!-- Navigation -->
 
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar navbar-expand-lg bg-light" data-bs-theme="dark" >
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navItems navbar-nav ms-auto mb-2 mb-lg-0">
+        <ul class="navItems navbar-nav ms-auto mb-2 mb-lg-0"> 
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
+             <a class="nav-link active" aria-current="page" href="#workSection">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Work
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">WorkThing</a></li>
-              <li><a class="dropdown-item" href="#">Another Thing</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <a class="nav-link active" aria-current="page" href="#skillsSection">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Skills</a>
+            <a class="nav-link active" aria-current="page" href="#aboutSection">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#footer">Contact</a>
           </li>
         </ul>
       </div>
@@ -49,11 +41,12 @@
 
 <!-- Hero/Jumbotron Section -->
 
-<div class="hero-banner p-5 mb-4 bg-body-tertiary rounded-3">
+<div class="hero-banner p-5 mb-4 bg-body-tertiary ">
     <div class="container-fluid py-5">
+      <div class="hero-text">
       <h1 class="display-5 fw-bold">Hi, I'm Serina;</h1>
       <p class="tagline col-md-10 fs-4 ms-auto">Front-end web developer, writer, drifter, dreamer, lover of semicolons, idea man.</p>
-      <!-- <button class="btn btn-primary btn-lg" type="button">Go Somewhere</button> -->
+      </div>
     </div>
   </div>
     
@@ -61,55 +54,80 @@
 <!-- Work Section -->
 
   <!-- Card Grid -->
-  <section class="workSection">
+  <section id="workSection">
+
+    <div class="sectionHeader card">
+          Portfolio
+    </div>
+
   <div class="workGrid row row-cols-1 row-cols-lg-2 g-2">
     <div class="portfolio-item col-lg-10">
         <div class="card bg-dark text-white">
-            <img src="./images/Climbing_Taghia.jpg" class="card-img" alt="a rock climber in Morocco">
+            <a target="_blank" class="stretched-link" href="https://www.climbafrica.org/">
+            <img src="./images/Climbing_Taghia.jpg" class="card-img img-responsive work-img" alt="a rock climber in Morocco">
+            </a>
             <div class="card-img-overlay">
+            <div class="card-label">
               <h5 class="card-title">ClimbAfrica</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <p class="card-text">Last updated 3 mins ago</p>
+            </div>
             </div>
         </div>
     </div>
     <div class="portfolio-item col-lg-5">
         <div class="card bg-dark text-white">
-            <img src="./images/highheelhook.jpg" class="card-img" alt="...">
+            <a target="_blank" class="stretched-link" href="https://www.dirtbabecollective.com/dialogues/stories/constrictor-evictor">
+            <img src="./images/highheelhook1.jpg" class="card-img work-img" alt="Serina climbing in the Philippines">
+            </a>
             <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
+            <div class="card-label">
+              <h5 class="card-title">Constrictor Evictor</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
+              <p class="card-text">Last updated 2020</p>
+            </div>
             </div>
           </div>
     </div>
     <div class="portfolio-item col-lg-5">
         <div class="card bg-dark text-white">
-            <img src="./images/02-portfolio-2.jpg" class="card-img" alt="...">
+            <a target="_blank" class="stretched-link" href="https://www.calculator.net/">
+            <img src="./images/02-portfolio-2.jpg" class="card-img work-img" alt="Laptop screen with calculator app open on it">
+            </a>
             <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
+            <div class="card-label">
+              <h5 class="card-title">Calculator</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
+              <p class="card-text">Last updated 3 months ago</p>
+            </div>
             </div>
         </div>
     </div>
     <div class="portfolio-item col-lg-5">
         <div class="card bg-dark text-white">
-            <img src="./images/02-portfolio-3.jpg" class="card-img" alt="...">
+            <a target="_blank" class="stretched-link" href="https://www.goodreads.com/genres/mystery">
+            <img src="./images/02-portfolio-3.jpg" class="card-img work-img" alt="a toy car on a colourful background">
+            </a>
             <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
+            <div class="card-label">
+              <h5 class="card-title">Mystery Project</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
+              <p class="card-text">Last updated sometime in the distant past</p>
+            </div>
             </div>
         </div>
     </div>
     <div class="portfolio-item col-lg-5">
         <div class="card bg-dark text-white">
-            <img src="./images/02-portfolio-4.jpg" class="card-img" alt="...">
+            <a target="_blank" class="stretched-link" href="https://www.surfline.com/">
+            <img src="./images/02-portfolio-4.jpg" class="card-img work-img" alt="someone watching surfers on the waves">
+            </a>
             <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
+            <div class="card-label">
+              <h5 class="card-title">Something Very Impressive</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
+              <p class="card-text">Last updated 10 mins ago</p>
+            </div>
             </div>
         </div>
     </div>
@@ -120,11 +138,10 @@
 
 <!-- Skills  -->
 
-<section class="skillsSection"></section>
+<section id="skillsSection" class="skillsSection"></section>
 
-<img class="napoleon" src="./images/napoleanDynamite.jpg" alt="a portrait of Napolean Dynamite">
 <div class="skillsQuote card">
-    <div class="skills-header card-header">
+    <div class="skills-header sectionHeader card-header">
       Skills
     </div>
     <div class="card-body">
@@ -134,16 +151,18 @@
       </blockquote>
     </div>
 </div>
+<img class="napoleon" src="./images/napoleanDynamite.jpg" alt="a portrait of Napoleon Dynamite">
+
 
 <div skillHeading>
     <h2>You know, like...</h2>
 </div>
 
 <!-- Skill Cards -->
-  <div class="row row-cols-1 row-cols-md-4 g-4">
+  <div class="skillCards row row-cols-1 row-cols-md-4 g-4">
     <div class="col">
       <div class="skill-card card border-0">
-        <img class="skill-img" src="./images/ninja_12624544.png" class="card-img-top" alt="...">
+        <img class="skill-img" src="./images/ninja_12624544.png" class="card-img-top" alt="a ninja">
         <div class="card-body">
           <h5 class="card-title">Ninja Skills</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -152,16 +171,16 @@
     </div>
     <div class="col">
       <div class="skill-card card border-0">
-        <img class="skill-img" src="./images/nunchaku_1185799.png" class="card-img-top" alt="...">
+        <img class="skill-img" src="./images/nunchaku_1185799.png" class="card-img-top" alt="nunchucks">
         <div class="card-body">
-          <h5 class="card-title">Numchuck Skills</h5>
+          <h5 class="card-title">Nunchuck Skills</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
       </div>
     </div>
     <div class="col">
       <div class="skill-card card border-0">
-        <img class="skill-img" src="./images/hacker_1320508.png" class="card-img-top" alt="...">
+        <img class="skill-img" src="./images/hacker_1320508.png" class="card-img-top" alt="computer hacker">
         <div class="card-body">
           <h5 class="card-title">Computer Hacking Skills</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -170,7 +189,7 @@
     </div>
     <div class="col">
       <div class="skill-card card border-0">
-        <img class="skill-img quill" src="./images/feather-pen_4693103.png" class="card-img-top" alt="...">
+        <img class="skill-img quill" src="./images/feather-pen_4693103.png" class="card-img-top" alt="a quill writing">
         <div class="card-body">
           <h5 class="card-title">Writing Skills</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -184,39 +203,36 @@
 
 <!-- About/Contact -->
 
-<section class="aboutSection"></section>
-<div class="row about-row">
-<div class="aboutMe card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="./images/me_circle.png" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
+<section id="aboutSection" class="aboutSection"></section>
+<img src="./images/me_circle.png" class="profile-pic" alt="photo of Serina">
+<div class="sectionHeader card">
+    Get In Touch
+</div>
+<div class="row about-row g-2">
+    <div class="aboutMe card mb-3 col-md-6 d-flex align-items-stretch" style="max-width: 800px;">
+     
         <div class="card-body">
           <h5 class="card-title">About Me</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
           <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
         </div>
-      </div>
-    </div>
-  </div>
+      
+    </div>  
 
-  <div class="contact card border-0" style="width: 18rem;">
-    <!-- <div class="card-header">
-      Featured
-    </div> -->
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item border-0">serina@fakedomain.net</li>
-      <li class="list-group-item border-0">+1-234-567-8910</li>
-      <li class="list-group-item border-0">LinkedIn</li>
-    </ul>
-  </div>
+     <div class="contact card d-flex align-items-stretch" style="width: 18rem;">
+      <ul class="list-group list-group-flush">
+        <li><h5 class="card-title contact-title list-group-item border-0">Contact</h5></li>
+        <li class="list-group-item border-0"><a target="_blank" href="mailto:serina@fakedomain.net">serina@fakedomain.net</a></li>
+        <li class="list-group-item border-0"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.simpler.dialer&hl=en&gl=US&pli=1">+1-234-567-8910</a></li></li>
+        <li class="list-group-item border-0"><a target="_blank" href="https://www.linkedin.com/">LinkedIn</a></li>
+      </ul>
+     </div>
 </div>
 </section>
 
 <!-- Footer -->
-<div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+<div id="footer" class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mb-0 mt-5 border-top">
       <div class="col-md-4 d-flex align-items-center">
         <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
           <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
@@ -225,10 +241,9 @@
       </div>
   
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <!-- Add social media icons here -->
-        <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-square-github" style="color: #40e0d0;"></i></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-square-instagram" style="color: #40e0d0;"></i></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-square-facebook" style="color: #40e0d0;"></i></a></li>
+        <li class="ms-3"><a target="_blank" class="text-muted" href="https://github.com/blooshroo"><i class="fa-brands fa-square-github fa-2xl" style="color: #3c005a;"></i></a></li>
+        <li class="ms-3"><a target="_blank" class="text-muted" href="https://www.instagram.com/blooshroo/"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #3c005a;"></i></a></li>
+        <li class="ms-3"><a target="_blank" class="text-muted" href="https://www.facebook.com/serina.dok/"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #3c005a;"></i></a></li>
       </ul>
     </footer>
   </div>
